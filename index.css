@@ -287,7 +287,7 @@ header {
 }
 
 .desk_item:hover > .desk_item__icon > .avia_icon {
-    background: no-repeat  center url("/img/vector.svg");
+    background: no-repeat  center url("img/vector.svg");
 }
 
 .avia_icon {
@@ -295,7 +295,7 @@ header {
     height: 40px;
     border-radius: 50%;
     padding: 1rem;
-    background: no-repeat  center url("/img/vector_white.svg");
+    background: no-repeat  center url("img/vector_white.svg");
 }
 
 /*about company*/
