@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ООО</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=58ce4d25-5267-4bbf-9b37-305fffe89bff&lang=ru_RU" type="text/javascript">
+    </script>
+    <script src="index.js" type="text/javascript"></script>
+    <link href="./index.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="info_panel">
+    <address class="info_panel__text">8(800) 123-45-67</address>
+    <address class="info_panel__text">email@mail.ru</address>
+</section>
+<header>
+    <div class="logo_company">
+        <div class="logo"><img src="img/logo.svg" alt="ООО"></div>
+        <div class="our_office"><img src="img/placeholder.svg" alt="наш офис"> Наш офис</div>
+    </div>
+    <nav class="top_navigation">
+        <ul class="top_navigation__menu">
+            <li>Услуги</li>
+            <li>О компании</li>
+            <li>Контакты</li>
+        </ul>
+    </nav>
+</header>
+<section class="slider">
+    <img src="img/rectangle.png" alt="грузоперевозки">
+    <div class="slider_title">
+        <div class="slider_title__header">грузовые перевозки</div>
+        <div class="slider_title__description">Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование, упаковка и хранение грузов</div>
+    </div>
+</section>
+<section class="service">
+    <div class="rectangle_left"></div>
+    <div class="service_content">
+        <div class="service_content__text">
+            <h2 class="service_content__title">Грузоперевозки по европе</h2>
+            <div class="service_content__description">Страны Евросоюза, а также Украина, Белоруссия со всеми документами.</div>
+            <button class="service_content__button">Подробнее</button>
+        </div>
+        <img class="service_content__image" src="img/cargo_car.png" alt="Грузоперевозки по европе"/>
+    </div>
+    <div class="rectangle_right"></div>
+</section>
+<section class="all_service">
+    <div class="all_service_content">
+        <h2 class="all_service_content__title">Услуги</h2>
+        <div class="all_service_content__task">
+            <div class="desk_item">
+                <div class="desk_item__icon">
+                    <div class="avia_icon"></div>
+                </div>
+                авиаперевозки
+            </div>
+            <div class="desk_item"><div class="desk_item__icon">
+                <div class="avia_icon"></div>
+            </div>
+                авиаперевозки
+            </div>
+            <div class="desk_item"><div class="desk_item__icon">
+                <div class="avia_icon"></div>
+            </div>
+                авиаперевозки
+            </div>
+            <div class="desk_item">
+                <div class="desk_item__icon">
+                    <div class="avia_icon"></div>
+                </div>
+                авиаперевозки
+            </div>
+            <div class="desk_item">
+                <div class="desk_item__icon">
+                    <div class="avia_icon"></div>
+                </div>
+                авиаперевозки
+            </div>
+            <div class="desk_item"><div class="desk_item__icon">
+                <div class="avia_icon"></div>
+            </div>
+                авиаперевозки
+            </div>
+            <div class="desk_item"><div class="desk_item__icon">
+                <div class="avia_icon"></div>
+            </div>
+                авиаперевозки
+            </div>
+            <div class="desk_item"><div class="desk_item__icon">
+                <div class="avia_icon"></div>
+            </div>
+                авиаперевозки
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about_company">
+    <div class="company_content">
+        <div class="rectangle_center"></div>
+        <div class="company_content__text">
+            <h2 class="company__title">О компании</h2>
+            <div class="company__description">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя
+                Lorem Ipsum для распечатки образцов. Lorem
+                Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+            </div>
+        </div>
+        <div class="company_content_table">
+            <div class="card_item">
+                <div class='card_item_number'>48</div>
+                <div class="card_item__text">офисов</div>
+                <div class="card_item__label">В Европе и СНГ</div>
+            </div>
+            <div class="card_item">
+                <div class='card_item_number'>361</div>
+                <div class="card_item__text">грузовиков</div>
+                <div class="card_item__label">Volvo, Scania</div>
+            </div>
+            <div class="card_item volvo">
+            </div>
+            <div class="card_item volvo">
+            </div>
+            <div class="card_item">
+                <div class='card_item_number'>1500</div>
+                <div class="card_item__text">сотрудников</div>
+                <div class="card_item__label">профессионалов</div>
+            </div>
+            <div class="card_item volvo">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="map" id="map">
+</section>
+<footer>
+    <div class="logo"><img src="img/logo.svg" alt="ООО"></div>
+    <address class="address">123456 Белгород, Богдана Хмельоницкого 6<br/>mail@mail.ru</address>
+    <div class="phone_block">
+        <address class="phone">+7(812)123-45-67</address>
+        <address class="phone">+7(812)995-45-67</address>
+    </div>
+</footer>
+
+</body>
+</html>
