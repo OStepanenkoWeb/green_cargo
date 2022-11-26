@@ -111,6 +111,10 @@ header {
     position: relative;
 }
 
+.slider_img {
+    width: 100%;
+}
+
 .slider_title {
     position: absolute;
     border: 1px solid #C8A35F;
@@ -218,19 +222,16 @@ header {
 .all_service {
     height: 561px;
     width: 100%;
-    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .all_service_content {
-    position: absolute;
+    max-width: 56%;
     z-index: 2;
-    top: 10%;
-    left: 15%;
-    right: 15%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 8rem;
 }
 
 .all_service_content__title {
@@ -240,7 +241,6 @@ header {
 
 .all_service_content__task {
     width: 100%;
-    height: 70%;
     display: flex;
     flex-wrap: wrap;
     gap: 0.25rem;
@@ -307,6 +307,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+@media (min-width: 600px) {
+    .about_company {
+        margin-top: 4rem;
+    }
 }
 
 .company_content {
@@ -354,7 +361,7 @@ header {
 }
 
 .card_item {
-    width: 170px;
+    width: 150px;
     height: 150px;
     background-color: #FFF;
     display: flex;
@@ -395,6 +402,12 @@ header {
 }
 
 /*map*/
+@media (min-width: 600px) {
+    .map {
+        margin-top: 4rem;
+    }
+}
+
 .map {
     width: 100%;
     height: 561px;
