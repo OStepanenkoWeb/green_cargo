@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>ООО</title>
+    <title>Компания ГринВей</title>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=58ce4d25-5267-4bbf-9b37-305fffe89bff&lang=ru_RU" type="text/javascript">
     </script>
     <script src="index.js" type="text/javascript"></script>
@@ -18,14 +18,14 @@
 </section>
 <header>
     <div class="logo_company">
-        <div class="logo"><img src="img/logo.svg" alt="ООО"></div>
-        <div class="our_office"><img src="img/placeholder.svg" alt="наш офис"> Наш офис</div>
+        <div class="logo"><img src="img/logo.svg" alt="Компания ГринВей"></div>
+        <div class="our_office"><img src="img/placeholder.svg" alt="наш офис"> <a href="#map">Наш офис</a></div>
     </div>
     <nav class="top_navigation">
         <ul class="top_navigation__menu">
-            <li>Услуги</li>
-            <li>О компании</li>
-            <li>Контакты</li>
+            <li><a href="#service">Услуги</a></li>
+            <li><a href="#about">О компании</a></li>
+            <li><a href="#map">Контакты</a></li>
         </ul>
     </nav>
 </header>
@@ -33,22 +33,22 @@
     <img class="slider_img" src="img/rectangle.png" alt="грузоперевозки">
     <div class="slider_title">
         <div class="slider_title__header">грузовые перевозки</div>
-        <div class="slider_title__description">Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование, упаковка и хранение грузов</div>
+        <div class="slider_title__description">сельхоз техники и оборудования</div>
     </div>
 </section>
 <section class="service">
     <div class="rectangle_left"></div>
     <div class="service_content">
         <div class="service_content__text">
-            <h2 class="service_content__title">Грузоперевозки по европе</h2>
-            <div class="service_content__description">Страны Евросоюза, а также Украина, Белоруссия со всеми документами.</div>
+            <h2 class="service_content__title">Грузоперевозки по всей россии</h2>
+            <div class="service_content__description">90m<sup><small>3</small></sup>, 110m<sup><small>3</small></sup></div>
             <button class="service_content__button">Подробнее</button>
         </div>
         <img class="service_content__image" src="img/cargo_car.png" alt="Грузоперевозки по европе"/>
     </div>
     <div class="rectangle_right"></div>
 </section>
-<section class="all_service">
+<section id="service" class="all_service">
     <div class="all_service_content">
         <h2 class="all_service_content__title">Услуги</h2>
         <div class="all_service_content__task">
@@ -98,17 +98,13 @@
         </div>
     </div>
 </section>
-<section class="about_company">
+<section id="about" class="about_company">
     <div class="company_content">
         <div class="rectangle_center"></div>
         <div class="company_content__text">
             <h2 class="company__title">О компании</h2>
             <div class="company__description">
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-                Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-                В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя
-                Lorem Ipsum для распечатки образцов. Lorem
-                Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+                Компания ГринВей осуществляет грузоперевозки по всей России.
             </div>
         </div>
         <div class="company_content_table">
