@@ -42,7 +42,7 @@
         <div class="service_content__text">
             <h2 class="service_content__title">Грузоперевозки по всей россии</h2>
             <div class="service_content__description">90m<sup><small>3</small></sup>, 110m<sup><small>3</small></sup></div>
-            <button class="service_content__button">Подробнее</button>
+            <a href="#order" class="service_content__button">Заказать</a>
         </div>
         <img class="service_content__image" src="img/cargo_car.png" alt="Грузоперевозки по европе"/>
     </div>
@@ -134,6 +134,13 @@
 </section>
 <section class="map" id="map">
 </section>
+<a href="#x" class="overlay" id="order"></a>
+<div class="popup">
+    <input type="text" class="popup_input" placeholder="Пункт отправки"/>
+    <input type="text" class="popup_input" placeholder="Пункт назначения"/>
+    <button class="service_content__button">Отправить</button>
+    <a class="close"title="Закрыть" href="#close"></a>
+</div>
 <footer>
     <div class="logo"><img src="img/logo.svg" alt="ООО"></div>
     <address class="address">123456 Белгород, Богдана Хмельоницкого 6<br/>mail@mail.ru</address>
